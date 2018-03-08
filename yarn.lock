@@ -3295,9 +3295,22 @@ walkdir@^0.0.11:
   version "0.0.11"
   resolved "https://registry.yarnpkg.com/walkdir/-/walkdir-0.0.11.tgz#a16d025eb931bd03b52f308caed0f40fcebe9532"
 
-wd@^1.0.0, wd@^1.4.0:
+wd@^1.0.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/wd/-/wd-1.4.0.tgz#85958787abc32f048d4b3927b2ab3c5fc8c9c9fa"
+  dependencies:
+    archiver "1.3.0"
+    async "2.0.1"
+    lodash "4.16.2"
+    mkdirp "^0.5.1"
+    q "1.4.1"
+    request "2.79.0"
+    underscore.string "3.3.4"
+    vargs "0.1.0"
+
+"wd@github:edoardocavazza/wd#issues/520":
+  version "1.6.0"
+  resolved "https://codeload.github.com/edoardocavazza/wd/tar.gz/5290ac15fbaaef1270d9b27d7a5fed5f3fde1fd3"
   dependencies:
     archiver "1.3.0"
     async "2.0.1"
